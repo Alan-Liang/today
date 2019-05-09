@@ -17,15 +17,25 @@
                 <span id="logo-wrapper">
                     <img id="header-logo" src="/identicon.png" />
                 </span>
-                <span class="mdc-typography--headline6 title">评论区</span>
+                <span class="mdc-typography--headline6 title" id="title">评论区</span>
             </section>
         </div>
     </header>
     <main class="mdc-top-app-bar--fixed-adjust">
+        <a id="back" class="mdc-button" href="/">←返回</a>
         <script>
-            var idcomments_acct = '80da0726e7d4e865f8106437cc474b24';
-            var idcomments_post_id;
-            var idcomments_post_url;
+            var idcomments_acct = '80da0726e7d4e865f8106437cc474b24'
+            var idcomments_post_id = (function(){
+                var id = location.href.split('id=')[1].split('#')[0].split('&')[0]
+                document.title = '评论区: ' + id + ' | Alan-Liang Today'
+                document.getElementById('title').innerText = '评论区: ' + id
+                document.getElementById('back').href = '/#' + id
+                if(id === '2019.05.08') {
+                    return 'https://alan.liang.today/comments/?id=2019.05.08&'
+                }
+                return id
+            })();
+            var idcomments_post_url
         </script>
         <span id="IDCommentsPostTitle" style="display:none"></span>
         <script type='text/javascript' src='https://www.intensedebate.com/js/genericCommentWrapperV2.js'></script>

@@ -21,16 +21,36 @@
             </section>
         </div>
     </header>
-    <main class="mdc-top-app-bar--fixed-adjust">
-        <h1 class="mdc-typography--headline5">2019.05.08</h1>
-        <p class="mdc-typography--body1">
-            今天是生日！买了<a href="https://alan.liang.today/">这个域名</a>(<code>liang.today</code>)作为16岁的生日礼物送给自己。
-            从这个名字就可以看出来，我以后可能会<strong>不定期地</strong>在这里更新我一天中都做了什么东西。
-            不会太长，不建议当做blog收看，不提供RSS，更像是一种微博。
-        </p>
-        <a href="/comments/?id=2019.05.08&">评论</a>
+    <main class="mdc-top-app-bar--fixed-adjust" id="main">
+        <p class="mdc-typography--body1">加载中……</p>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/@alan-liang/utils/utils.js"></script>
+    <script language="x/template" id="template">
+        <div id="{{id}}">
+            <h1 class="mdc-typography--headline5">{{id}}</h1>
+            <p class="mdc-typography--body1">
+                {{content}}
+            </p>
+            <a href="/comments/?id={{id}}&">评论</a>
+        </div>
+    </script>
     <script>
+        httpget('/log', function(_, resp) {
+            var logs = resp.split(/\r?\n\r?\n/)
+            var t = $('template').innerHTML
+            var html = ''
+            for(var i = 0; i < logs.length; i++) {
+                var log = logs[i].split(/\r?\n/)
+                var title = log[0]
+                log[0] = ''
+                html += template(t, {
+                    id: title,
+                    content: log.join('\n')
+                })
+            }
+            $('main').innerHTML = html
+        })
+
         window.GoogleAnalyticsObject = 'ga'
         window.ga = window.ga || function() {
           ;(window.ga.q = window.ga.q || []).push(arguments)

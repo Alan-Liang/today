@@ -24,4 +24,14 @@ body {
 main {
     margin-left: 32px;
     margin-right: 32px;
+    max-width: 864px;
+}
+
+#back {
+    margin-top: 16px;
+    color: #56d66f;
+}
+
+.idc-loginbtn_intensedebate {
+    display: none !important;
 }
