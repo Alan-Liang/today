@@ -1,6 +1,7 @@
 2019.05.11
 今天上午考了力学竞赛预赛，炸了。
 写了一些<a target="_blank" href="https://gist.github.com/Alan-Liang/491bd0561481e6fdb2b981cb932fad5d">示例代码</a>。
+搞定了Vote的数据库架构，写了Page的class def。
 
 2019.05.10
 今天做了一套泛珠的题(2013)，大概想好了那种语言的错误处理。Go的痕迹很重。
