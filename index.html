@@ -49,6 +49,9 @@
                 })
             }
             $('main').innerHTML = html
+            setTimeout(function () {
+                window.scrollTo(0, $(location.hash.replace('#', '')).offsetTop);
+            }, 1);
         })
 
         window.GoogleAnalyticsObject = 'ga'
