@@ -1,3 +1,13 @@
+2019.05.26
+今天上午力学竞赛决赛，在首都师大附中，去年去过那里。估计也就能混个一等奖后面些的名次，因为考的不怎么样。<br />
+今天研究了一道题，更新了Pipette的<a target="_blank" href="https://gist.github.com/Alan-Liang/491bd0561481e6fdb2b981cb932fad5d">示例代码</a>。没干什么别的。
+
+2019.05.25
+今天看了一些强网杯的题，但是明天力学竞赛决赛，没有深入研究。Gameboy的disassembler老是把代码识别为数据，输出成段的没用的数据块。
+
+2019.05.24
+今天再次更新了Pipette的<a target="_blank" href="https://gist.github.com/Alan-Liang/491bd0561481e6fdb2b981cb932fad5d">示例代码</a>，发布了<a target="_blank" href="https://www.npmjs.com/package/@pipette/polyfill">@pipette/polyfill</a>。还有很多TODO。
+
 2019.05.23
 今天KEEER开了一次全体会，讨论基本事项。KEEER终于有制度性保障了。
 今天研究了一下那篇<a href="https://eprint.iacr.org/2017/281.pdf">论文</a>，有一个问题待研究：如果服务器<em>模拟</em>出了t个设备，服务器不就可以拿到用户数据了吗？<br />
