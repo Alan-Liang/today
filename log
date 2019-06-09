@@ -1,3 +1,9 @@
+2019.06.09
+今天把KEEER阿里云的所有服务都架上了HTTP/2，速度确实提升不少。升级了WPS，装了一个对于CUPS的PDF的虚拟Printer。
+
+2019.06.08
+今天一天都在学习。Queue做了一个小调查，发现所有人都喜欢看Markdown的文档而不是Word的，我很高兴。
+
 2019.06.07
 今天发现*.keeer.net证书过期了，续了一下。基本写完了<a target="_blank" href="https://github.com/KEEER/guides/blob/master/git.md">Git Guide</a>。
 
