@@ -1,3 +1,18 @@
+2019.06.16
+准备明天中午讲学考Python。写好了题，希望相关人士不要骂我🤦
+
+2019.06.15
+给Vote设好了CSS Source Map，写了Vote用来展示表单的服务器端。
+
+2019.06.14
+将Vote前端插件hooks的输入与后端统一为数组形式。
+
+2019.06.13
+做了Vote的服务器端插件架构及设计。
+
+2019.06.12-11
+复习会考。
+
 2019.06.10
 今天把KEEER阿里云的<a href="https://blog.keeer.net/2019/06/http-2-and-tlsv1-3/?utm_source=alanliangtoday" target="_blank">所有服务都架上了TLSv1.3</a>，查了一些红楼梦的内容。
 这几天要专心复习会考，可能会断更。
