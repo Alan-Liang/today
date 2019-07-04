@@ -1,3 +1,9 @@
+2019.07.04
+今天给Linda装了git，准备明天去南京。
+
+2019.07.03
+今天改进了Scratchpad。换了一个Markdown引擎。
+
 2019.07.02
 今天干了一大堆事情：做了<a href="https://scratchpad.liang.today" target="_blank">Scratchpad</a>(支持Markdown)，
 做了Vote提交前验证，修了一个文档的bug，让Queue提交活动报告，把Vote的默认分支从master转移到dev。
