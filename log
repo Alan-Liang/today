@@ -1,3 +1,30 @@
+2019.07.25
+又发现了一个bug，提了一个<a href="http://github.com/matsp/material-components-vue/issues/360" target="blank">issue</a>。
+
+2019.07.24
+给新建问题做了一个dialog，顺便给material-components-vue提了一个<a target="blank" href="https://github.com/matsp/material-components-vue/pull/358">PR</a>，被merge了。
+
+2019.07.23
+今天改了一下Vote插件定义文本的机制，使得插件可以动态获取文本。
+
+2019.07.20-22
+没有任何commit log，记不清自己干什么了。
+
+2019.07.19
+修正了昨天的一些问题，加上了验证。
+
+2019.07.18
+给GraphQL做了一个简单的前端。
+
+2019.07.17 
+在Vote的编辑器里用上了GraphQL。
+
+2019.07.16
+今天改了一下Vote的logo，使得它没那么像垃圾桶。
+
+2019.07.15
+今天做了Vote的编辑器，用上了Vue Router。
+
 2019.07.14
 试图扫描keeer.net V4的手稿，结果刚扫描完就删了。
 
