@@ -1,3 +1,24 @@
+2019.08.01
+把Vote Editor模块化，开了<a href="https://blog.liang.today" target="_blank">博客</a>，调整了服务器的<a href="https://blog.liang.today/2019/07/screen-dms/" target="_blank">一些逻辑</a>。
+
+2019.07.31
+写官网，调通了Vote editor的GraphQL连接。
+
+2019.07.30
+继续改进官网。
+
+2019.07.29
+<a href="https://keeer-www-v4.netlify.com/" target="_blank" rel="nofollow">首页</a>出来了。
+
+2019.07.28
+今天继续写官网，用flex实现了一大堆东西。
+
+2019.07.27
+今天开了新坑(KEEER官网V4)。
+
+2019.07.26
+基本啥都没干。
+
 2019.07.25
 又发现了一个bug，提了一个<a href="http://github.com/matsp/material-components-vue/issues/360" target="blank">issue</a>。
 
