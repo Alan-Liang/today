@@ -1,3 +1,22 @@
+2019.09.26
+调了一下机器，可以跑微信以及旧版Onion Print了。
+
+2019.09.25
+给Cloud Print的打印机端做了一个Bootstrap，技术栈为Node / Koa。
+
+2019.09.24
+研究了一下Node里的打印，发现了<a href="https://www.npmjs.com/package/node-native-printer" target="_blank">npm.im/node-native-printer</a>。和Queue讨论了一下Cloud Print的架构。
+
+2019.09.23
+补研学作业。
+
+2019.09.22
+写作业，补之前没写的作业。
+
+2019.08.21-09.21
+准备物理预赛、复赛。复赛也就是稳二，不可能进实验。
+20号晚上去了一趟奥森，爬到仰山顶上。
+
 2019.08.20
 今天Vote的问题可以重新排序 / 切换是否必填了。
 
